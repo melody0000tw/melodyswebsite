@@ -1,0 +1,39 @@
+.header{
+    height: 800px;
+    background-position: left center;
+    background-size: cover;
+};
+
+// header
+
+.height-s5{
+    height:400px;
+};
+
+// header cover
+
+.object-fit-cover{
+    object-fit: cover;
+};
+
+// skills progress bar
+
+.bar{
+    display: inline-block;
+    width:48px ;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+// education photo
+
+.height-s3{
+    height:300px;
+}
+
+// extracurricular
+
+.height-s4{
+    height:450px;
+}

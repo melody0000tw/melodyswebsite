@@ -1,0 +1,549 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./stylesheets/all.css">
+    <title> 230921_bootstrap個人網站 </title>
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-primary"; data-bs-theme="dark">
+        <div class="container-xxl">
+            <a href="#header" class="navbar-brand text-white fw-bold"><i class="bi bi-person-circle p-2"></i>Yun Chieh Lee</a>
+            <!--toggle button for mobile nav-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto" >
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutMe">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#extracurricular">Extracurricular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+     <!-- header -->
+    <header 
+        class="header"
+        style="background-image: url(/photo/web_intro.jpeg);height:800px;"
+        id="header"
+        >
+            <div class="container d-flex py-6 text-center align-items-center justify-content-center h-50">
+                <div>
+                    <h1 class="display-1 fw-light text-white">Yun Chieh Lee</h1>
+                    <h1 class="display-1 fw-bold text-white">EXPLORER.</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+     <!-- about me -->
+    <section id="aboutMe" class="bg-white pt-6 pb-6">
+        <div class="container">
+            <div class="text-center">
+                <h2>About Me</h2>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-6">
+                    <img class="height-s5 w-100 object-fit-cover" src="/photo/web_about_me.jpg" alt="aboutme">
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-items-center">
+                    <div class="p-3 m-4">
+                        <h3 class="mb-4">李昀潔  Yun Chieh Lee</h3>
+                        <p>我的英文名字是Melody，擁有2+年行銷經驗，曾待過廣告代理商、實體通路與電商品牌，走了一圈卻發現自己沒那麼喜歡行銷。於是在25歲生日許下一個願望，給自己一年的時間好好探索自己，目前全職學習中！
+                        <br>
+                        <br>
+                        喜歡登山、攀岩、組裝傢俱、閱讀、藍色和軟綿綿的布丁；
+                        討厭一陳不變、沒有挑戰的生活和苦瓜。
+                        <br>
+                        <br>
+                        熱愛邏輯思考與視覺設計，喜歡研究如何將複雜的概念系統化；擅長創意行銷、溝通協調，具有強大的執行能力與高度自我要求，想要讓生活充滿踏實與有趣，並利用我的能力創造更多可能性！
+                        
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+    </section>
+
+     <!-- skills -->
+    <section id="skills" class="bg-primary p-6" style="--bs-bg-opacity:.2;">
+        <div class="container">
+            <div class="text-center">
+                <h2>Skills</h2>
+            </div>
+            <div class="row my-5 align-items-top justify-content-center gy-3">
+                <!-- Skill - Design-->
+                <div class="col-sm-8 col-md-6 col-xl-3">
+                    <div class="card border-0 bg-primary" style="--bs-bg-opacity:.4">
+                        <div class="card-body py-4">
+                            <h4 class="card-title pb-3"><i class="bi bi-palette-fill p-2"></i>Design</h4>
+                            <div>
+                                <div class="pb-4">
+                                    <p class="col card-text">llustrator</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="pb-4">
+                                    <p class="col card-text">Photoshop</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="pb-4">
+                                    <p class="col card-text">InDesign</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="pb-4">
+                                    <p class="col card-text">Figma</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="pb-4">
+                                    <p class="col card-text">Sketch</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="pb-4">
+                                    <p class="col card-text">XD</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <br>
+                                <a href="#" class="card-link">Design Portfolio </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill - Coding-->
+                <div class="col-sm-8 col-md-6 col-xl-3">
+                    <div class="card border-0 bg-primary" style="--bs-bg-opacity:.4">
+                        <div class="card-body py-4">
+                            <h4 class="card-title pb-3"><i class="bi bi-file-code-fill p-2"></i>Coding</h4>
+                            <div>
+                                <div class="pb-4">
+                                    <p class="col card-text">HTML</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="pb-4">
+                                    <p class="col card-text">CSS</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="pb-4">
+                                    <p class="col card-text">JavaScript</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="pb-4">
+                                    <p class="col card-text">Python</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <br>
+                                <a href="#" class="card-link">Coding Portfolio </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill - Marketing-->
+                <div class="col-sm-8 col-md-6 col-xl-3">
+                    <div class="card border-0 bg-primary" style="--bs-bg-opacity:.4">
+                        <div class="card-body py-4">
+                            <h4 class="card-title pb-3"><i class="bi bi-reception-4 p-2"></i>Marketing</h4>
+                                <div class="pb-4">
+                                    <p class="col card-text">Business Strategy</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="pb-4">
+                                    <p class="col card-text">Digital Marketing</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="pb-4">
+                                    <p class="col card-text">Project Management</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="pb-4">
+                                    <p class="col card-text">Costumer Service</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="pb-4">
+                                    <p class="col card-text">Interview & Writing</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <br>
+                                <a href="#" class="card-link">Marketing Portfolio </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill - collaboration-->
+                <div class="col-sm-8 col-md-6 col-xl-3">
+                    <div class="card border-0 bg-primary" style="--bs-bg-opacity:.4">
+                        <div class="card-body py-4">
+                            <h4 class="card-title pb-3"><i class="bi bi-people-fill p-2"></i>Collaboration</h4>
+                            <div>
+                                <div class="pb-4">
+                                    <p class="col card-text">Microsoft Suite</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="pb-4">
+                                    <p class="col card-text">Google Workplace</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="pb-4">
+                                    <p class="col card-text">Notion</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="pb-4">
+                                    <p class="col card-text">Discord</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="pb-4">
+                                    <p class="col card-text">Slack</p>
+                                    <div class="progress" style="height: 6px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- working experience -->
+    <section id="experience" class="bg-white py-6">
+        <div class="text-center mb-5">
+            <h2>Working Experience</h2>
+        </div>
+        <div class="container-fluid">
+            <!--timeline-->
+            <div class="row justify-content-center">
+                <div class="col-auto text-center flex-column d-none d-lg-flex">
+                    <div class="row h-50">
+                        <div class="col">&nbsp;</div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                    <h5 class="m-2">
+                        <span class="badge rounded-circle bg-light border">&nbsp;</span>
+                    </h5>
+                    <div class="row h-50">
+                        <div class="col border-end">&nbsp;</div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                </div>
+
+                <!--work experience - upsports-->
+                <div class="col-lg-6 py-2">
+                    <div class="card bg-white my-2 me-4 p-3 shadow bg-body-tertiary border-0" >
+                        <img src="/photo/logo-up.png" class="bg-white p-2" width="100" alt="upsports logo">
+                        <div class="card-body">
+                            <div class="float-end text-muted fw-light">JUL 2021 - AUG 2023</div>
+                            <h5 class="card-title">品牌經理 Brand Manager</h5>
+                            <h6 class="card-subtitle my-3 text-primary"><i class="bi bi-building-fill p-2"></i>向上運動股份有限公司 / Taipei / 26 months</h6>
+                            <p class="card-text ">
+                                <ul class="text-muted">
+                                    <li><b>商業策略</b> | 重新調整品牌網站、市場定位與行銷策略, 一年內提高官網營收220+%</li>
+                                    <li><b>廣告投放</b> | 運用數據分析, 提升廣告投放成效, 增加廣告投資報酬率30+%</li>
+                                    <li><b>專案管理</b> | 主導10+新品上市專案、20+異業合作專案，具備溝通協調與資源整合能力</li>
+                                    <li><b>社群經營</b> | 經營官方粉絲專頁, 提升品牌能見度與顧客黏著度, 增加自然粉流量比例20+%</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--work experience - skm -->
+            <div class="row justify-content-center">
+                <div class="col-auto text-center flex-column d-none d-lg-flex">
+                    <div class="row h-50">
+                        <div class="col">&nbsp;</div>
+                        <div class="col border-start">&nbsp;</div>
+                    </div>
+                    <h5 class="m-2">
+                        <span class="badge rounded-circle bg-light border">&nbsp;</span>
+                    </h5>
+                    <div class="row h-50">
+                        <div class="col border-end">&nbsp;</div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-2">
+                    <div class="card bg-white my-2 me-4 p-3 shadow bg-body-tertiary border-0" >
+                        <img src="/photo/logo-skm.png" class="bg-white p-2" width="100" alt="upsports logo">
+                        <div class="card-body">
+                            <div class="float-end text-muted fw-light">OCT 2020 - OCT 2020</div>
+                            <h5 class="card-title">品行銷企劃專員 Marketing Specialist</h5>
+                            <h6 class="card-subtitle my-3 text-primary"><i class="bi bi-building-fill p-2"></i>新光三越股份有限公司 / Taipei / 3 months</h6>
+                            <p class="card-text ">
+                                <ul class="text-muted">
+                                    <li><b>活動企劃</b> | 規劃執行5+場親子活動, 累積活動參與人數達500+, 有效提升來店客流量</li>
+                                    <li><b>顧客服務</b> | 第一線協助顧客參與活動, 耐心理解顧客需求, 並積極解決顧客問題</li>
+                                    <li><b>行銷設計</b> | 整各項品牌資源, 針對不同季節規劃行銷主軸, 並協助設計行銷製作物</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--work experience - ogilvy -->
+            <div class="row justify-content-center">
+                <div class="col-auto text-center flex-column d-none d-lg-flex">
+                    <div class="row h-50">
+                        <div class="col">&nbsp;</div>
+                        <div class="col border-start">&nbsp;</div>
+                    </div>
+                    <h5 class="m-2">
+                        <span class="badge rounded-circle bg-light border">&nbsp;</span>
+                    </h5>
+                    <div class="row h-50">
+                        <div class="col border-end">&nbsp;</div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-2">
+                    <div class="card bg-white my-2 me-4 p-3 shadow bg-body-tertiary border-0" >
+                        <img src="/photo/logo-ogilvy.webp" class="bg-white p-2" width="100" alt="upsports logo">
+                        <div class="card-body">
+                            <div class="float-end text-muted fw-light">JUL 2019 - AUG 2019</div>
+                            <h5 class="card-title">暑期實習生 Summer Intern</h5>
+                            <h6 class="card-subtitle my-3 text-primary"><i class="bi bi-building-fill p-2"></i>奧美整合行銷 / Taipei / 2 months</h6>
+                            <p class="card-text ">
+                                <ul class="text-muted">
+                                    <li><b>社群經營</b> | 協助規劃、製作客戶社群行銷內容, 透過創意提升品牌印象</li>
+                                    <li><b>公關操作</b> | 定期追蹤、監測客戶之媒體聲量與討論度, 協助客戶安排媒體曝光</li>
+                                    <li><b>市場調查</b> | 協助客戶進行市場調查、競品分析, 並規劃品牌行銷策略</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- education-->
+    <section id="education" class="bg-primary p-6" style="--bs-bg-opacity:.2";>
+        <div class="text-center mb-5">
+            <h2>Education</h2>
+        </div>
+        <div class="container">
+            <!-- education item 1-->
+            <div class="row align-items-center justify-content-center py-6 border-bottom border-2 border-secondary-subtle">
+                <div class="col-12 col-lg-8">
+                    <h2 class="featurette-heading fw-normal lh-5 mb-3 ps-3 border-start border-5 border-primary">
+                        國立臺灣大學<br> 生物產業傳播暨發展學系
+                    </h2>
+                    <h5 class="text-primary pb-3 fw-light">SEP 2016 - JUN 2020</h5>
+                    <dl class="row">
+                        <dt class="col-sm-3 text-primary">成績</dt>
+                        <dd class="col-sm-9">GPA 3.9 / 4.3</dd>
+
+                        <dt class="col-sm-3 text-primary">程式課程</dt>
+                        <dd class="col-sm-9">計算機程式設計 (A)、電子計算機概論(A-)、邏輯(A+)</dd>
+
+                        <dt class="col-sm-3 text-primary">獲獎</dt>
+                        <dd class="col-sm-9">2019教育部學海飛颺獎助學金、2018成績優良書卷獎</dd>
+                    </dl>
+                </div>
+                <div class="col-lg-4">
+                    <img src="/photo/edu-ntu.jpg" class=".height-s3 w-100 object-fit-cover" role="img" alt="ntu">
+                </div>
+            </div>
+
+            <!-- education item 2-->
+            <div class="row align-items-center justify-content-center py-6 border-bottom border-2 border-secondary-subtle">
+                <div class="col-12 col-lg-8">
+                    <h2 class="featurette-heading fw-normal lh-5 mb-3 ps-3 border-start border-5 border-primary">
+                        University of Toronto<br> Exchange Student
+                    </h2>
+                    <h5 class="text-primary pb-3 fw-light"> SEP 2019 - DEC 2019</h5>
+                    <dl class="row">
+                        <dt class="col-sm-3 text-primary">Ranking</dt>
+                        <dd class="col-sm-9">#21 QS World University Rankings (2023)</dd>
+
+                        <dt class="col-sm-3 text-primary">Faculty</dt>
+                        <dd class="col-sm-9">Art and Science</dd>
+
+                        <dt class="col-sm-3 text-primary">Course</dt>
+                        <dd class="col-sm-9">Children’s Literature, Environmental Justice</dd>
+                    </dl>
+                </div>
+                <div class="col-lg-4">
+                    <img src="/photo/edu-uoft.jpeg" class=".height-s3 w-100 object-fit-cover" role="img" alt="ntu">
+                </div>
+            </div>
+
+             <!-- education item 3 -->
+             <div class="row align-items-center justify-content-center py-6">
+                <div class="col-12 col-lg-8">
+                    <h2 class="featurette-heading fw-normal lh-5 mb-3 ps-3 border-start border-5 border-primary">
+                        自學經歷
+                    </h2>
+                    <h5 class="text-primary pb-3 fw-light"> SINCE 2020</h5>
+                    <dl class="row">
+                        <dt class="col-sm-3 text-primary">Marketing</dt>
+                        <dd class="col-sm-9">Google Analytics Basics (GA)、產品數據分析 (Hahow)</dd>
+
+                        <dt class="col-sm-3 text-primary">UI / UX</dt>
+                        <dd class="col-sm-9">User Experience Design Essentials (Udemy)、UI設計實作 (Hexschool)</dd>
+
+                        <dt class="col-sm-3 text-primary">Coding</dt>
+                        <dd class="col-sm-9">Net Ninja Tutorial (Youtube)、JavaScript前端必修篇 (Hexschool)、React入門工作坊 (Hexschool)</dd>
+                    </dl>
+                </div>
+                <div class="col-lg-4">
+                    <img src="/photo/edu-self.png" class=".height-s3 w-100 object-fit-cover" role="img" alt="ntu">
+                </div>
+            </div>
+
+
+        </div>
+        
+
+        <!--
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            aria-lavel="Placeholder:500x500" preserveAspectRatio="XmidYmid slice" focusable="false" 
+        -->
+    </section>
+
+
+    <!-- extracurricular experience -->
+    <section id="extracurricular" class="bg-white py-6">
+        <div class="text-center">
+            <h2>Extracurricular Activities</h2>
+        </div>
+        <div class="container">
+            <div class="row my-5 justify-content-center gy-3">
+                <!-- item 1 -->
+                <div class="col-12 col-lg-4">
+                    <div class="card shadow p-3 mb-5 bg-body-tertiary border-0">
+                        <img src="/photo/extra-1.jpeg" class="img-fluid" alt="walk around the island 48 days">
+                        <div class="card-body">
+                          <h5 class="card-title text-primary mb-3">徒步環島 48 Days</h5>
+                          <h6 class="card-subtitle mb-2 text-body-secondary fw-light text-primary">MAR 2021 - APR 2021</h6>
+                          <p class="card-text">我利用48天的時間, 透過自己的雙腳把台灣繞了一圈, 原以為這趟旅程會很辛苦, 卻發現我只是很幸福...</p>
+                        </div>
+                      </div>
+                </div>
+
+                <!-- item 2 -->
+                <div class="col-12 col-lg-4">
+                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                        <img src="/photo/extra-2.png" class="img-fluid" alt="cheerleading">
+                        <div class="card-body">
+                          <h5 class="card-title text-primary mb-3">臺灣大學競技啦啦隊</h5>
+                          <h6 class="card-subtitle mb-2 text-body-secondary fw-light text-primary">SEP 2016 - JUN 2019</h6>
+                          <p class="card-text">
+                            <p>
+                                空拋後空翻、單底層旋轉下、飛上金字塔，每一次騰空的亮相，即便再害怕，我也必須夠勇敢的相信自己，因為底下的每一個人都死命的在撐著我...
+                            </p>
+                            <p class="text-primary fw-light">
+                                2017 全國啦啦隊錦標賽 團體組 第9名
+                                <br>
+                                2018 大專院校啦啦隊錦標賽 團體組 第4名
+                            </p>
+                          </p>
+                        </div>
+                      </div>
+                </div>
+
+                <!-- item 3 -->
+                <div class="col-12 col-lg-4">
+                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                        <img src="/photo/extra-3.png" class="card-img-top" alt="walk around the island 48 days">
+                        <div class="card-body">
+                          <h5 class="card-title text-primary mb-3">偏鄉服務 小小傳播營</h5>
+                          <h6 class="card-subtitle mb-2 text-body-secondary fw-light text-primary">SEP 2017 - FEB 2018</h6>
+                          <p class="card-text">隱藏在平溪老街中的百年學校，學生多半為隔代教養家庭，父母在台北工作，寒暑假期間也無法陪伴孩子，透過為期一週的免費營隊，帶領著孩子在玩樂中學習...</p>
+                        </div>
+                      </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- footer contact-->
+    <footer id="contact" class="bg-primary text-white py-6" >
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-4">
+                    <h4 class="pb-3">Contact</h4>
+                    <p><i class="bi bi-telephone-fill pe-3"></i>0988696871</p>
+                    <p><i class="bi bi-envelope-fill pe-3"></i>melody0000tw@gmail.com</p>
+                    <i class="bi bi-facebook pe-2"></i>
+                    <i class="bi bi-instagram pe-2"></i>
+                    <i class="bi bi-linkedin pe-2"></i>
+            </div>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
